@@ -72,11 +72,6 @@ li a:hover {
     background-color: #111;
 }
 
-.content {
-    font-size: 200px;
-    display: none;
-}
-
 .about {
     color: white;
     width: 100%;
@@ -105,13 +100,13 @@ li a:hover {
 .textabout {
     width: 80%;
     font-family: varelaround;
-    font-size: 25px;
+    font-size: 2.3vw;
     z-index: 1;
 }
 
 .aboutbigtext {
     font-family: opensans-bold;
-    font-size: 70px;
+    font-size: 7vw;
 }
 
 .about2 {
@@ -122,7 +117,7 @@ li a:hover {
 
 .textabout2 {
     font-family: opensans-regular;
-    font-size: 30px;
+    font-size: 3.2vw;
 }
 
 .cv {
@@ -141,7 +136,7 @@ li a:hover {
 
 .textcv {
     font-family: opensans-regular;
-    font-size: 30px;
+    font-size: 3.2vw;
     height: 100%;
     width: 100%;
     background: #404040;
@@ -151,17 +146,19 @@ li a:hover {
 
 .textcvleft {
     float: left;
-    width: 35%;
+    margin-left: 5%;
+    width: 30%;
 }
 
 .textcvright {
     float: right;
-    width: 65%;
+    margin-right: 2%;
+    width: 63%;
 }
 
 .cvbigtext {
     font-family: opensans-bold;
-    font-size: 50px;
+    font-size: 5.4vw;
 }
 
 .hobbiesicons {
@@ -186,7 +183,7 @@ li a:hover {
 
 .textprojects {
     font-family: opensans-regular;
-    font-size: 30px;
+    font-size: 3.4vw;
     height: 100%;
     width: 100%;
     padding: 0% 0% 10% 0%;
@@ -214,6 +211,7 @@ li a:hover {
     width: 60%;
     height: 100%;
     border-radius: 100px;
+    font-size: 1.8vw;
 }
 
 .projectstop {
