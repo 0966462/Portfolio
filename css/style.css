@@ -100,13 +100,13 @@ li a:hover {
 .textabout {
     width: 80%;
     font-family: varelaround;
-    font-size: 2.3vw;
+    font-size: 2vw;
     z-index: 1;
 }
 
 .aboutbigtext {
     font-family: opensans-bold;
-    font-size: 7vw;
+    font-size: 5vw;
 }
 
 .about2 {
@@ -117,7 +117,7 @@ li a:hover {
 
 .textabout2 {
     font-family: opensans-regular;
-    font-size: 3.2vw;
+    font-size: 2vw;
 }
 
 .cv {
@@ -136,7 +136,7 @@ li a:hover {
 
 .textcv {
     font-family: opensans-regular;
-    font-size: 3.2vw;
+    font-size: 2vw;
     height: 100%;
     width: 100%;
     background: #404040;
@@ -158,7 +158,7 @@ li a:hover {
 
 .cvbigtext {
     font-family: opensans-bold;
-    font-size: 5.4vw;
+    font-size: 4vw;
 }
 
 .hobbiesicons {
@@ -183,14 +183,14 @@ li a:hover {
 
 .textprojects {
     font-family: opensans-regular;
-    font-size: 3.4vw;
+    font-size: 3vw;
     height: 100%;
     width: 100%;
     padding: 0% 0% 10% 0%;
 }
 
 .projectsbuttons {
-    padding: 5% 0% 0% 0%;
+    padding: 10% 0% 0% 0%;
     float: left;
     width: 35%;
 }
