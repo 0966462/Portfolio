@@ -95,7 +95,7 @@
 					<div class="projectsbuttons">
 						<ul>
 							<li><a href="" class="tpl 1">The Safezone</a></li>
-							<li><a href="" class="tpl 2">Project2</a></li>
+							<li><a href="" class="tpl 2">Trip Tracker</a></li>
 							<li><a href="" class="tpl 3">Project3</a></li>
 							<li><a href="" class="tpl 4">Project4</a></li>
 							<li><a href="" class="tpl 5">Project5</a></li>
@@ -104,6 +104,35 @@
 					<div class="projectsdisplay">
 						Klik op 1 van deze projecten om er wat meer over te weten te komen.
 					</div>
+					<script>
+
+						var kaarten = ["Cactus Juice", "Energy Drink", "Horde", "No Encounter", "Roasted Meat", "Windbreaker", "Zombie"]
+
+							function func_kaarten_left() {
+								kaarten.reverse();
+								kaarten.push(kaarten.shift());
+								kaarten.reverse();
+
+								refresh_kaarten();
+
+							};
+		
+							function func_kaarten_right() {
+								kaarten.push(kaarten.shift());
+
+								refresh_kaarten();
+
+							};
+
+							function refresh_kaarten() {
+								$("#kaarten").attr({
+									"src" : "img/kaarten/" + kaarten[0] + ".png",
+									"alt" : kaarten[0]
+								});
+							};
+
+					</script>
+
 				</div>
 			</div>
 
