@@ -131,6 +131,32 @@
 								});
 							};
 
+							
+							var screenshots = ["1", "2", "3", "4", "5", "6", "7", "8"]
+
+							function func_screenshots_left() {
+								screenshots.reverse();
+								screenshots.push(screenshots.shift());
+								screenshots.reverse();
+
+								refresh_screenshots();
+
+							};
+		
+							function func_screenshots_right() {
+								screenshots.push(screenshots.shift());
+
+								refresh_screenshots();
+
+							};
+
+							function refresh_screenshots() {
+								$("#screenshots").attr({
+									"src" : "img/trip tracker/screenshot" + screenshots[0] + ".png",
+									"alt" : "screenshot " + screenshots[0]
+								});
+							};
+
 					</script>
 
 				</div>
