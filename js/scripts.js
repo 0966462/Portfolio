@@ -47,7 +47,7 @@ $(document).ready(function(){
       "<div class='projectsleft'><h3>Demonstratie Video</h3><iframe width='320' height='180' src='https://www.youtube.com/embed/B_T7LGdNS2Y' allowfullscreen='allowfullscreen' mozallowfullscreen='mozallowfullscreen' msallowfullscreen='msallowfullscreen' oallowfullscreen='oallowfullscreen' webkitallowfullscreen='webkitallowfullscreen'></iframe></div>" +
       "<div class='projectsright'><h3>Screenshots</h3><a id='screenshotsleft' href=''><img src='img/arrow left.png' alt='Arrow Left' style='max-width:15%; margin: 0% 0% 45% 0%'; position: fixed; top: 50%'></a><img id='screenshots' src='img/trip tracker/screenshot" + screenshots[0] + ".png' alt='screenshot " + screenshots[0] + "' style='max-width:64%; margin: 0% 3% 0% 3%'><a id='screenshotsright' href=''><img src='img/arrow right.png' alt='Arrow Right' style='max-width:15%; margin: 0% 0% 45% 0%'; position: fixed; top: 50%'></a></div>" +
 
-      "<div class='projectsbottom'><h3>Applicatie download</h3>De download is een apk file dat dus alleen werkt met android devices.<br><a href='files/TripTracker.apk' download>download</a>" + 
+      "<div class='projectsbottom'><h3>Applicatie download</h3>De download is een apk file, dus werkt het alleen met android devices.<br><a href='files/TripTracker.apk' download>download</a>" + 
       "<br><h3>Leerdoel Jaar 1</h3><a href='files/leerdoelen/Leerdoel Jaar 1.pdf' download>Leerdoel</a><br><a href='files/leerdoelen/Leerdoel Jaar 1 Bewijs en Reflectie.pdf' download>Bewijs en Reflectie</a></div>" +
 
       "<script>$('#screenshotsleft').click(function() {func_screenshots_left(); return false}); $('#screenshotsright').click(function() {func_screenshots_right(); return false}); </script>"
