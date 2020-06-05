@@ -99,8 +99,8 @@
 						<ul>
 							<li><a href="" class="tpl 1">The Safezone</a></li>
 							<li><a href="" class="tpl 2">Trip Tracker</a></li>
-							<li><a href="" class="tpl 3">Project3</a></li>
-							<li><a href="" class="tpl 4">Project4</a></li>
+							<li><a href="" class="tpl 3">Dimension Hopper</a></li>
+							<li><a href="" class="tpl 4">EmployAI</a></li>
 							<li><a href="" class="tpl 5">Project5</a></li>
 						</ul>
 					</div><br><br>
@@ -108,57 +108,54 @@
 						Klik op 1 van deze projecten om er wat meer over te weten te komen.
 					</div>
 					<script>
+						var screenshotsSF = ["1", "2", "3", "4", "5", "6", "7"]
+						var screenshotsTT = ["1", "2", "3", "4", "5", "6", "7", "8"]
+                        var screenshotsDH = ["1", "2", "3", "4", "5", "6"]
+						var screenshotAI = ["1"]
 
-						var kaarten = ["Cactus Juice", "Energy Drink", "Horde", "No Encounter", "Roasted Meat", "Windbreaker", "Zombie"]
+						function func_screenshots(project, direction) {
+							switch (project) {
+								case "safezone":
+									var chosenlist = screenshotsSF;
+									break;
+								case "triptracker":
+									var chosenlist = screenshotsTT;
+									break;
+								case "dimensionhopper":
+									var chosenlist = screenshotsDH;
+									break;
+								case "employai":
+									var chosenlist = screenshotsAI;
+									break;
+							}
 
-							function func_kaarten_left() {
-								kaarten.reverse();
-								kaarten.push(kaarten.shift());
-								kaarten.reverse();
+							if (direction == "left") { func_screenshots_left(project, chosenlist) }
+							else { func_screenshots_right(project, chosenlist) }
+                        }
 
-								refresh_kaarten();
+						function func_screenshots_left(project, chosenlist) {
+							chosenlist.reverse();
+                            chosenlist.push(chosenlist.shift());
+                            chosenlist.reverse();
 
-							};
-		
-							function func_kaarten_right() {
-								kaarten.push(kaarten.shift());
+                            refresh_screenshots(project, chosenlist);
+                        };
 
-								refresh_kaarten();
+                        function func_screenshots_right(project, chosenlist) {
+                            chosenlist.push(chosenlist.shift());
 
-							};
+                            refresh_screenshots(project, chosenlist);
+                        };
 
-							function refresh_kaarten() {
-								$("#kaarten").attr({
-									"src" : "img/kaarten/" + kaarten[0] + ".png",
-									"alt" : kaarten[0]
-								});
-							};
+						function refresh_screenshots(project, chosenlist) {
+							console.log(project);
+							console.log(chosenlist[0]);
 
-							
-							var screenshots = ["1", "2", "3", "4", "5", "6", "7", "8"]
-
-							function func_screenshots_left() {
-								screenshots.reverse();
-								screenshots.push(screenshots.shift());
-								screenshots.reverse();
-
-								refresh_screenshots();
-
-							};
-		
-							function func_screenshots_right() {
-								screenshots.push(screenshots.shift());
-
-								refresh_screenshots();
-
-							};
-
-							function refresh_screenshots() {
-								$("#screenshots").attr({
-									"src" : "img/trip tracker/screenshot" + screenshots[0] + ".png",
-									"alt" : "screenshot " + screenshots[0]
-								});
-							};
+							$("#screenshots").attr({
+								"src": "img/" + project + "/screenshot" + chosenlist[0] + ".png",
+								"alt": "screenshot " + chosenlist[0]
+							});
+						};
 
 					</script>
 
