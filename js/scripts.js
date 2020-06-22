@@ -48,7 +48,7 @@ $(document).ready(function(){
       "<div class='projectsleft'><h3>Demonstratie Video</h3><iframe width='320' height='180' src='https://www.youtube.com/embed/B_T7LGdNS2Y' allowfullscreen='allowfullscreen' mozallowfullscreen='mozallowfullscreen' msallowfullscreen='msallowfullscreen' oallowfullscreen='oallowfullscreen' webkitallowfullscreen='webkitallowfullscreen'></iframe></div>" +
             "<div class='projectsright'><h3>Screenshots</h3><a id='screenshotsTTleft' href=''><img src='img/arrow left.png' alt='Arrow Left' style='max-width:15%; margin: 0% 0% 45% 0%'; position: fixed; top: 50%'></a><img id = 'screenshots' src = 'img/triptracker/screenshot1.png' alt = 'screenshot 1' style = 'max-width:64%; margin: 0% 3% 0% 3%' ><a id='screenshotsTTright' href=''><img src='img/arrow right.png' alt='Arrow Right' style='max-width:15%; margin: 0% 0% 45% 0%';></a></div> " +
 
-      "<div class='projectsbottom'><h3>Applicatie download</h3>De download is een apk file, dus werkt het alleen met android devices.<br><a href='files/TripTracker.apk' download>download</a>" + 
+      "<div class='projectsbottom'><h3>Applicatie download</h3>De download is een apk file, dus werkt het alleen met android devices.<br><a href='files/TripTracker.apk' download>Application Download</a><br><a href='https://github.com/FranciscoNgo/Project-B'>Github Link</a>" + 
       "<br><h3>Leerdoel Jaar 1</h3><a href='files/leerdoelen/Leerdoel Jaar 1.pdf' download>Leerdoel</a><br><a href='files/leerdoelen/Leerdoel Jaar 1 Bewijs en Reflectie.pdf' download>Bewijs en Reflectie</a></div>" +
 
       "<script>$('#screenshotsTTleft').click(function() {func_screenshots('triptracker', 'left'); return false}); $('#screenshotsTTright').click(function() {func_screenshots('triptracker', 'right'); return false}); </script>"
@@ -65,7 +65,7 @@ $(document).ready(function(){
 
             "<div class='projectsbottom'><h3>Demonstratie Video</h3><iframe width='320' height='180' src='https://www.youtube.com/embed/JxL-33djMpY' allowfullscreen='allowfullscreen' mozallowfullscreen='mozallowfullscreen' msallowfullscreen='msallowfullscreen' oallowfullscreen='oallowfullscreen' webkitallowfullscreen='webkitallowfullscreen'></iframe><br>" +
             "<h3>Screenshots</h3><a id='screenshotsDHleft' href=''><img src='img/arrow left.png' alt='Arrow Left' style='max-width:15%; margin: 0% 0% 12% 0%'; position: fixed; top: 50%'></a><img id='screenshots' src='img/dimensionhopper/screenshot1.png' alt='screenshot 1' style='max-width:64%; margin: 0% 3% 0% 3%'><a id='screenshotsDHright' href=''><img src='img/arrow right.png' alt='Arrow Right' style='max-width:15%; margin: 0% 0% 12% 0%'; position: fixed; top: 50%'></a><br><br>" +
-            "<b>Game download</b><br><a href='files/Dimension Hopper.zip' download>download</a></div>" +
+            "<a href='files/Dimension Hopper.zip' download>Game Download</a><br><a href='https://github.com/rafaeltab/ProjectC'>Github Link</a></div>" +
 
         "<script>$('#screenshotsDHleft').click(function() {func_screenshots('dimensionhopper', 'left'); return false}); $('#screenshotsDHright').click(function() {func_screenshots('dimensionhopper', 'right'); return false}); </script>"
 
