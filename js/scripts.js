@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 
       var right = "<div class='projectstop'><h2>The Safezone</h2>Gemaakt met 4 andere studenten.<br>Een bordspel waarbij je het snelste naar De Safezone(midden) moet gaan.<br>Je kan items oppakken in de item spots(rode cirkels) en elke zone heeft verschillende items." +
-      "<br>Elke speler(max 4 spelers) begint in 1 van de 4 hoeken.<br>Elke zone heeft een objective item.<br>Je moet dus alle 4 de objective items hebben om naar het midden te gaan.<br>Je kan samenwerken of je kan ook elkaar aanvallen.<br>Ook heb je de kans om zombies tegen te komen.</div>" +
+      "<br>Elke speler(max 4 spelers) begint in 1 van de 4 hoeken.<br>Elke zone heeft een objective item.<br>Je moet dus alle 4 de objective items hebben om naar het midden te gaan.<br>Je kan samenwerken of je kan ook elkaar aanvallen.<br>Ook heb je de kans om zombies tegen te komen.<br><br>Het eindproduct is een fysiek bordspel met een applicatie die de ervaring verbetert.</div>" +
 
       "<div class='projectsleft'><h3>Spelbord</h3><img src='img/spelbord.png' alt='Spelbord' style='max-width:80%'></div>" +
       "<div class='projectsright'><h3>Kaarten</h3><a id='screenshotsSFleft' href=''><img src='img/arrow left.png' alt='Arrow Left' style='max-width:15%; margin: 0% 0% 40% 0%'; position: fixed; top: 50%'></a><img id='screenshots' src='img/safezone/screenshot1.png' alt='screenshot 1' style='max-width:64%; margin: 10% 3% 0% 3%'><a id='screenshotsSFright' href=''><img src='img/arrow right.png' alt='Arrow Right' style='max-width:15%; margin: 0% 0% 40% 0%'; position: fixed; top: 50%'></a></div>" +
@@ -77,8 +77,13 @@ $(document).ready(function(){
     $(".4").click(function() {
       
 
-        var right = "<div class='projectstop'><h2>EmployAI</h2>Gemaakt met 4 andere studenten. Het eindproduct is een proof of concept.<br></div>" +
-            "<div class='projectsbottom'><b>Application download</b><br>Still in development.</div>"
+        var right = "<div class='projectstop'><h2>EmployAI</h2>Gemaakt met 4 andere studenten. Het eindproduct is een proof of concept.<br><br>Voor het bedrijf Swisscom moesten we de customer experience verbeteren door middel van een applicatie.<br>Hierbij hadden we bedacht om een soort virtuele assistent te maken waar de user mee kan praten.<br><br>De proof of concept bestaat uit voice recognition, text-to-speech en face recognition.</div>" +
+
+            "<div class='projectsbottom'><h3>Demonstratie Video</h3><iframe width='320' height='180' src='https://www.youtube.com/embed/0pDV6iMHDiw' allowfullscreen='allowfullscreen' mozallowfullscreen='mozallowfullscreen' msallowfullscreen='msallowfullscreen' oallowfullscreen='oallowfullscreen' webkitallowfullscreen='webkitallowfullscreen'></iframe><br>" +
+            "<br><b>Application download</b><br>Geen download,<br>omdat de file Microsoft Azure keys bevat.</div>"
+
+            
+            
 
       $(".projectsdisplay").html(right);
 
